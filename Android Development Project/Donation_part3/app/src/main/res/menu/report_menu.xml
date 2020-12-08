@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-
-    >
-    <item android:title="Report" android:id="@+id/report" ></item>
-    <item android:title="Donate" android:id="@+id/donate"></item>
-    <item android:title="reset" android:id="@+id/reset"></item>
-<item android:id="@+id/map" android:title="add donation center"></item>
-</menu>
