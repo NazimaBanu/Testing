@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60076" started-at="2020-12-10T11:26:47 EST" finished-at="2020-12-10T11:27:47 EST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Hybridecommercewritebyown.test1(java.lang.String)[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="test1" class="EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="60076" started-at="2020-12-10T11:26:47 EST" finished-at="2020-12-10T11:27:47 EST">
+      <class name="EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown">
+        <test-method status="PASS" signature="startServerEmulator()[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="startServerEmulator" is-config="true" duration-ms="11500" started-at="2020-12-10T11:26:47 EST" finished-at="2020-12-10T11:26:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServerEmulator -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="test1" duration-ms="18459" started-at="2020-12-10T11:26:59 EST" data-provider="InputData" finished-at="2020-12-10T11:27:17 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="startServerEmulator()[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="startServerEmulator" is-config="true" duration-ms="9009" started-at="2020-12-10T11:27:17 EST" finished-at="2020-12-10T11:27:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServerEmulator -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="test1" duration-ms="21034" started-at="2020-12-10T11:27:26 EST" data-provider="InputData" finished-at="2020-12-10T11:27:47 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="FAIL" signature="getScreenshot(java.lang.String)[pri:0, instance:EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown@eb21112]" name="getScreenshot" is-config="true" duration-ms="-1607617667575" started-at="2020-12-10T11:27:47 EST" finished-at="1969-12-31T19:00:00 EST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated getScreenshot.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated getScreenshot.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.afterRun(TestRunner.java:847)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+      </class> <!-- EndtoEndFramework.EndtoEndFramework.Hybridecommercewritebyown -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
