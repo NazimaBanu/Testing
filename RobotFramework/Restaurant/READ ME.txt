@@ -1,0 +1,16 @@
+Test Setup:
+	1.Python Should Be Installed and mention it in PATH variable.Check whether Python is installed by entering "python" command
+	2.Install all Python Packages such as Robot Framework-Selenium Library.Check by entering pip list in command prompt
+		pip install robotframework-selenium library	->for installation.
+	3.Install Red Robot Editor in Eclipse from eclipse Market Place.
+	4.Go to Window-> Preferences->Robot Framework->Installed Frameworks->Verify Robot Framework installed in system is displayed
+	5.Download Chrome Driver/gecko driver/ie driver & paste it project path. Python will use these WebDrivers to automate web elements.
+	6.Ensure compatibility of drivers with the browser version.
+	
+Execution:
+	1.Open Project from the File System in eclipse. You may change the path of imports in robot and resource files.
+	2.Download chrome driver suitable to your chrome version & paste it in the project path
+	2.Choose any browser you want to execute tests, in TestConfig file. By default chrome will execute the tests.Update as per the need in ENV_BROWSER variable
+	3.Run your tests in eclipse or in command prompt
+		-robot <Path of the project>/Restaurant/Scripts/Restaurantsearch.robot
+	
