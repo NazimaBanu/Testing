@@ -1,4 +1,4 @@
-//Dynamically Growing array & used for deallocation and reallocation process.//This is a good pgm than Nasir_CashManagementAllocation1.java
+//Dynamically Growing array & used for deallocation and reallocation process.
 package selenium;
 
 import java.util.ArrayList;
